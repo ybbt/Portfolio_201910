@@ -1,0 +1,35 @@
+.segment{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.segmentBlock{
+    text-align: start;
+}
+
+.title{
+
+    font-size: 12px;
+    line-height: 18px;
+
+    letter-spacing: 0.5px;
+
+    color: #A0B0B9;
+
+}
+
+.value{
+    font-size: 14px;
+    line-height: 21px;
+    color: #4A4A4A;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.value div:not(:last-child):after {
+    content: ', ';
+    margin-right: 5px;
+}

@@ -1,0 +1,1 @@
+export const getSearchId = store => store.tickets.searchId;
